@@ -1,0 +1,104 @@
+//아스키아트~
+
+서로 다른 파일에서 동일한 이름의 브랜치를 만들수있나?
+지울 때는 어떻게?
+
+// Detached HEAD: HEAD만 임시 이동한다.
+
+git checkout commit_Hash(HEAD~N)(branch_name):지정된 Commit으로 HEAD 이동한다.
+
+git switch 원래 branch_name: HEAD를 이동한다.
+
+commit 위치에서 branch 생성할 수 있다.
+Commit된 데서 new_branch 생성 없이 commit하면 꼬인다.
+
+git restore file_name: file을 최근 커밋상태로파일 복원한다.( 커밋된 것이 없으면 삭제된다.) 
+
+
+git restore --staged file_name: Staging Area에 있는 파일을 Working Directory에 Unstaging한다. 커밋분리에 유용하다.
+
+git restore --source commit_Hashnumber file_name: file을 특정 commit 시점으로 복귀할 수 있다. 단 미래로는 갈 수 없다. 그 파일만 복원되는 건가?
+
+git restore . : 해당HEAD로 복원한다.
+
+git restore --source HEAD~2 hello.txt: 지정된 파일을 HEAD기준 N단계 이전으로 복원한다.(HEAD이동X)
+
+git restore --source HEAD file_name: 현재 HEAD위치로 파일을 복원한다.
+커밋이 있어도 복원할 수 있고, 커밋이 남아있으면 restore로 미래로 다시 돌아갈 수 있다.
+
+다시 돌아가고 싶으면 stash
+
+
+
+// Hacker Typer
+git reset --soft commit_hash(HEAD~N): HEAD 이동과 동시에 지정된 커밋 이후의 모든 Commit이 삭제되고 내용은 Staging Area에 저장된다.
+
+git reset (--mixed) commit_hash(HEAD~N): HEAD 이동과 동시에 지정된 커밋 이후의 모든 커밋이 삭제되고 내용은 Working Directory에 저장된다. 
+
+git reset --hard commit_hash(HEAD~N) : 내용 저장 없이 지정된 commit 상태로 되돌린다.
+
+git reset --hard ORIG_HEAD: (New commit 이전)인생에서 단 한번뿐인 기회
+
+// U == Untracted files
+
+git revert HEAD: HEAD 위치 직전 commit을 현재 Commit 위치 직후에 새로운 commit으로 추가한다. (with checkout HEAD~N) 
+
+*Github
+hosting platform Service
+
+git push : Local -> 원격 저장소
+git fetch: Remote Repository-> Local Repositiory, 주로 검사용.
+git pull: Remote Repository-> Working Directory
+pull Request : 저장소의 주인에게 pull 요청을 보낸다.
+
+로컬 저장소: git init, git clone
+
+git clone git_address . : 기존 원격 저장소의 복사본을 생성한다.
+
+git remote add origin(기본) rem_address: 원격저장소를 origin이라는 이름으로 등록한다.
+
+git remote -v: 등록된 원격저장소를 확인한다.
+
+git push origin master: master내용을 origin에 민다.
+
+git remote remove:
+
+git remote rename
+
+git remote show
+
+git push -u remote_rep local_rep_branch_name: 자주 사용하는 push를 연결하며 push. 이후부터 git push 로만 가능.
+
+*****수업끝*****
+
+-u를 다시 지정하면 다시 지정되나?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+아이고 미안합니다 다르들ㄹ.ㅜㅜ
+제가사실 실수햇어용
+밍나이전으로 돌아ㅏㄹ가ㅓ라게요~
+
+
+
+git diff 가 헷갈리네.
+에드된 걸 수정하면 다시 워킹디렉토리로 이동하는 거 아니었나?
+에드는 그대로 에드라고?
