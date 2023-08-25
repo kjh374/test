@@ -1,0 +1,195 @@
+*Git	
+	#단축키
+		텍스트 복사: Ctrl + Insert
+		텍스트 붙여넣기: Shift + Insert
+		한줄에 모두 입력: &&
+		-: option = 'char'
+		--: option = "string"
+		help : 도움말; 명령어 모음을 나타낸다.
+		git help : git 에 해당하는 명령어를 나타낸다.
+	#열기
+		현재 폴더 열기: start .
+		상위 폴더 열기: start ..
+		해당 폴더 열기: start <folder>
+		해당 파일 열기: start <file>
+		임시 저장 파일 열기: 
+			최근 임시저장 파일 열기: git stash pop (list에서 삭제된다.)
+			n번째 임시저장 파일 열기: git stash apply stash@{n} (list에선 유지된다.)
+
+	#이동
+		-경로이동: 
+			상위 폴더 이동: cd .. 
+			상위/상위 폴더 이동: cd ../..
+			최상위 폴더 이동: cd /
+			형제 폴더 이동: cd ../<folder> (바탕화면 상위폴더: ~)
+			해당 폴더 이동: cd <Folder>
+
+		-커밋 이동:
+			git switch <commit_hash>
+		-브랜치 이동:
+			git switch <branch>
+		-HEAD 이동:
+			git checkout HEAD~n	(n단계 이전 커밋으로)
+			git checkout <commit_hash> (지정된 커밋으로)
+			git switch <orig_branch> (HEAD 복원)
+	#확인
+		-현재 위치 확인:
+			pwd(print working directory)
+		
+		-하위 목록 확인:
+			하위목록 확인: ls
+			하위목록 숨김폴더 확인: ls -a
+			하위목록 권한 확인: ls -l
+			철자목록 확인: Tab key (자동완성 포함)
+		-Git 상태 확인:
+			git status
+		-브랜치 목록 확인:
+			로컬 저장소 브랜치 확인: git branch (*: 현재 위치)
+			원격 저장소 브랜치 확인: git branch -r
+			로컬/원격 저장소 브랜치 확인: git branch -a
+		-등록된 원격저장소 확인:
+			git remote -v
+		-커밋/브랜치 확인:
+			여러줄로 나타내기: git log
+			한줄 확인: git log --oneline
+			모든 커밋/브랜치 확인: git log --oneline --all
+			그래프로 확인: git log --oneline --all --graph
+			깃 로그 나가기: q: git 스테이지에서 나간다.
+			git log 후에 enter : 내역을 더 나타낸다.
+		-업데이트 확인:
+			git push -u
+		-변경사항 비교 확인:
+			WD vs LC 비교: git diff (작업 디렉토리[b/] vs 최근 커밋[a/])
+			현재 파일 vs 최근 커밋 비교: git diff HEAD (add여부와 상관 없음)
+			브랜치 간 비교: git diff <branch> <BRANCH>
+			커밋 간 비교: git diff <선 commit_hash> <후 commit_hash>
+		-임시 저장소 목록 확인:
+			git stash list
+			
+	#추가
+		-파일추가:
+			touch <file>
+		-.Git 숨김폴더 생성:
+			git init (=초기화)
+		-.gitignore 생성:
+			touch .gitignore (내용에 있는 폴더/파일은 관리 대상에서 제외된다. add전에만 유효하다.)
+		-Index 추가:
+			git add . (all file)
+			git add <file> (<file2> ... <fileN>)
+		-Commit 추가:
+			여러줄 추가: git commit
+			새로운 커밋 추가: git commit -m ""
+			수정된 파일 커밋 추가: git commit -am ""
+			HEAD 직전 커밋 추가
+
+		-Branch 생성:
+			git branch <branch> (commit 존재하, 해당 브랜치에서 새로운 브랜치를 생성한					다.)
+			git switch -c <branch> (동시에 이동한다.)
+			git switch -c <branch> <root_branch>
+		-임시 저장소에 추가:
+			임시 이름으로 저장: git stash
+			특정 이름으로 저장: git stash save <name>
+					  git stash save "message" 
+	#복원
+		-Commit 복원:
+			최근 커밋으로 Working Directory에 있는 해당 파일 복원: git restore <file>
+			HEAD로 복원: git restore .
+			Working Directory로 Index에 있는 해당 파일 복원: git restore --staged <file>
+			특정 Commit으로 해당 파일 복원: git restore --source <commit_hash> <file> 
+							  git restore source HEAD~n <file>
+			HEAD로 해당 파일 복원: git restore --source HEAD <file>
+		-리셋 복원:
+			git reset --hard ORIG^HEAD (새로운 커밋하기 전 단 한번)
+		
+	#삭제
+		-파일 삭제: rm
+		-폴더 삭제: rm -rf
+		-Commit 삭제:
+			With 작업내용 Working Directory 저장:
+				git reset <Commit_hash> 
+				git reset <HEAD~N>
+			With 작업내용 Index 저장:
+				git reset -soft <Commit_hash>
+			With 작업내용 삭제:
+				git reset -hard <Commit_hash> 
+		-브랜치 삭제: 
+			커밋이 없거나 병합된 브랜치 삭제: git branch -d <branch> (<branch_2> ... <branch_N)
+			브랜치 강제 삭제: git branch -D <branch> 
+		-원격 브랜치 삭제: git push <remote> :<branch>
+		-임시 저장소 목록 삭제:
+			특정 stash 삭제: git stash drop stash@{n}
+ 			모든 목록 삭제: git stash clear
+	#복제
+		-타 원격 저장소 복제: fork
+		-원격 저장소 간 동기화: synk fork
+
+	#동기화
+		-타 원격 저장소 가져오기:
+			default_branch 복제?: git clone <url>
+			git clone <url> . (원격 저장소 내용이 복제된다.)
+		-원격 저장소 가져오기: git fetch (<remote>)(merge를 별도로 해주어야 한다.)
+		-원격 저장소 가져와 병합(=Commit): git pull <remote> <local_branch> 
+					(pull 전에 작업중인 내용을 저장해서 마무리지어야 pull이 가능함.)
+
+
+
+	#업로드
+		-원격 저장소 등록:
+			git remote add <remote> <remote_url>
+		-원격 저장소 업로드:
+			git push <remote> (now_branch)
+			git push <remote> <local_branch>
+			git push -u <remote> <local_branch> (=이후 git push)
+		-원격 저장소로 복사: 
+			
+			
+	#수정
+		git commit --amend: (바로) 직전 커밋을 수정한다. (메시지, 추가 커밋) 삭제는 안되는듯.
+이거 안쓰고 커밋메시지 변경할 수는 없을까?
+		-로컬 브랜치 이름 변경:
+			git branch -m <new_branch>
+		-원격 브랜치 이름 변경:
+			git push <remote> :<old_branch> & git push <remote> <new_branch>
+	#병합
+		-충돌x:
+			현위치 브랜치에 병합: git merge <branch>
+	#조직도
+		-Git Space
+			Working directory: 
+				작업하는 공간 자체. 폴더자체. 만든다고 관리하는 게 아님. 
+				eX) Untracted file, Modified 
+			Staging area:  
+				git add를 하면 들어가는 임시 공간. 대기공간. 스테이지.
+				수정되면 자동으로 워킹디렉토리도 이동함. 수정할 필요가 없는 확정이 된 					애들을 한번에 밀어넣기 위한 공간이다.
+			local repository: 
+				commit 을 통해 Git으로 관리되는 공간.
+
+
+		-Git Workflow = Gitflow
+			Master : 최종본
+			Develop : 개발
+ 				feat/login: 단위 기능 개발
+ 				feat/board:
+ 				...
+			rel : 배포 전 QA(품질 검사)  
+			fix/board: 긴급 수정 
+	
+pull Request : 저장소의 주인에게 pull 요청을 보낸다.
+
+//분류 대기
+
+git checkout origin/animals : 머리 떼어내서 들여다 본 후 같은 이름 브랜치 만들어서 작업해야 한다. 이건 어쩔 수 없다.
+(push했던 기록이 있어서 가능)
+집에서도 되려나?
+
+git remote remove:
+
+git remote rename
+
+git remote show
+
+git config --global: 어느 깃저장소를 생성하든지 각각 지정하지 않아도 됨. 전역지정. 공용컴퓨터는 추천하지 않음. 
+git config --global user.name "": 이름.
+git config --global user.email "": git hub 호환을 위하여 git-hub 로그인 정보를 그대로 써주는 게 좋다.
+git config --list: user.name , user.email 이 잘 들어갔는지 확인한다.
+git log : 기록된 commit 내역을 확인한다. 
