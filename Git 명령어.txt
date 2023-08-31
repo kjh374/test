@@ -1,0 +1,31 @@
+#pwd
+#start
+#ls
+#touch
+#cd
+#rm
+#rm -rf
+
+#git init
+#git switch
+#git checkout
+#git stash
+#git status
+#git branch
+#git push -f <remoteName> <localBranch>
+#git log
+#git remote
+#git diff
+#git commit
+#git add
+#git restore
+#git reset
+#git fetch
+#git pull
+#git clone
+#git merge
+#git config
+#git commend --amend
+
+
+
