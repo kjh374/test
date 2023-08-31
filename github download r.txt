@@ -1,6 +1,0 @@
-clone vs pull 
-
-Open Perspective-> Git> clone a git repository> location에 url 붙여넣기/Authentication github 계정입력. -> 생성 - >  impile> General> Projects from Folder or Archive
-
-import> git> projects from Git
-

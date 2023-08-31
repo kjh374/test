@@ -1,0 +1,55 @@
+---MethodQuiz01---
+
+---MethodQuiz02---미완
+#return:활용
+#함수 연계
+
+#5번문제???
+
+
+##객체지향 프로그래밍
+#OOP
+#라이브러리 클래스
+#필드
+#메서드 vs 함수
+#실체화(객체화)
+#객체 생성
+#객체 저장
+#참조 타입
+#참조 연산자
+#객체 접근
+#클래스
+#필드: 자동 초기화
+
+##2장-객체지향 프로그래밍
+#필드와 지역변수의 차이
+#string객체
+#string 제공 메서드: charAt() / substring( , ) / substring() / length() / indexOf() / lastIndexOf() / toLowerCase() / toUpperCase() / trim() / replace(old, new) / split() / valueOf()
+#string 관련 메서드: Integer.parseInt() / Double.parseDouble() 
+
+---StringQuiz02---
+#하이픈!!!
+#switch활용
+
+##생성자
+#생성자:선언
+#생성자:호출
+#생성자:오버로딩
+
+---PersonMain---
+#기본 생성자:권장
+
+#패키지
+#패키지:명명
+#패키지:구분
+#패키지:선언
+
+#생성자:생성 단축키
+
+---MainClass---
+#import
+#All(*)
+#클래스:생성
+#import:동명 구분
+#패키지 경로 직접 표시
+
