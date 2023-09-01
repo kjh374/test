@@ -3,7 +3,6 @@
 #ls
 #touch
 #cd
-<<<<<<< HEAD
 #rm
 #rm -rf
 
@@ -28,14 +27,33 @@
 #git config
 #git commend --amend
 
-=======
 #switch
+#rm
+#rm -rf
 
-#checkout
-#stash
+#git init
+#git switch
+#git checkout
+#git stash
 #git status
 #git branch
 #git push -f <remoteName> <localBranch>
->>>>>>> a08ea69 (0830)
+
+#git log
+#git remotes
+#git diff
+#git commit
+#git add
+#git restore
+#git reset
+#git fetch
+#git pull
+#git clone
+#git merge
+#git config
+#git commend --amend
+#git rebase -i
+#git rebase --continue
+
 
 

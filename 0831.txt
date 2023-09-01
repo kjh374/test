@@ -1,0 +1,47 @@
+
+---MyBirth---
+
+---overloading---
+#오버로딩:메서드
+
+# **
+#Math.pow( , )
+
+---obj_arr---
+#generate getters and setters
+#generate Constructor using Fields
+#객체 배열
+
+---ArrayInsert---
+#setter메서드 활용
+
+==다형성==
+#다형성
+#상속:연결성
+#부모 타입
+#다중 상속 불허
+#상속:일방성
+
+---Basic---
+#다형성:타입의 규격화
+#클래스 다중 선언
+#자동 형 변환
+#최상위 클래스
+
+---car---
+#다형성:이종모음
+#필드:객체타입
+#매개변수:객체타입
+#리턴타입:객체타입
+
+#타입 캐스팅
+
+
+===TIP===
+#alt + shift + R
+#난수 발생: 길이/미만
+
+
+
+
+
