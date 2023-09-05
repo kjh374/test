@@ -40,7 +40,7 @@
 
 ##예외 처리 문법
 #try/catch
-#Exception 클래스
+#최상위 예외 클래스
 #다중 catch문
 #멀티 catch문
 #getMessage();
@@ -50,11 +50,10 @@
 #buffer
 #nextLine()
 #finally
-#throws
-#main:throws
+#throws:문법
+#throws:경고
+#thorws:일괄 처리
 #printStackTrace()
-#경고/일괄 처리
-
 
 #Ctrl + D
 

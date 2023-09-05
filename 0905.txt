@@ -1,0 +1,115 @@
+
+#예외 강제 발생:throw
+#throw:활용
+#사용자 정의 예외
+#사용자 정의 예외:상속
+#사용자 정의 예외:명명
+
+#자바 표준 api
+#java.lang
+#Object 클래스
+#toString:override
+#toString:자동
+#finalize:deprecated
+#equals():override
+#clone()
+#hashCode():주소값
+#깊은 복사
+#얕은 복사
+
+##System 클래스
+#System.out:상수
+#System 클래스:static 멤버
+#System.gc();
+#System.exit():강제종료
+#System.currentTimeMillis();
+#System.nanoTime();
+#유닉스 시간
+
+#인터프리터
+#컴파일 언어
+#자바:혼용
+
+#환경변수
+
+##StringBuffer//StringBuilder
+#append(문자열)
+#insert(인덱스, 삽입할 문자열)
+#replace(begin, end, 문자열)
+#delete(begin, end)
+#reverse()
+#문자열 변수:final변수
+
+##Math 클래스
+#static method
+#Math.ceil()
+#Math.floor()
+#Math.round()
+#Math.pow()
+#Math.max()
+#Math.min()
+#Math.abs()
+#Math.PI
+
+##Wrapper 클래스
+#기본 타입
+#참조 타입
+#Boolean
+#Character
+#Byte
+#Short
+#Integer
+#Long
+#Float
+#Double
+#BigInteger
+#BigDecimal
+#Boxing:deprecated
+#UnBoxing:deprecated
+#Autoboxing
+#Autounboxing
+#컬렉션
+
+#LocalDate,LocalTime, LocalDateTime
+#KST
+#util package
+#time package
+#LocalDateTime.now();
+#LocalDateTime.of();
+#getYear();
+#getMonthValue();
+#getDayOfMonth();
+#enum
+#getMonth();
+#getDayOfYear();
+#getDayOfWeek();
+#plus~();
+#메서드 체인링
+#minus~();
+ChronoUnit.
+#~.between( , )
+#ofPattern(" ");
+#format();
+
+#util.Arrays
+#copyOf();
+#copyOfRange();
+#binarySearch();
+#이진탐색
+#Arrays.sort();
+#Collections.reverseOrder():Integer[ ] 지원
+#Arrays.equals( , )
+
+
+
+
+
+
+#java.lang.*: Auto import Setting
+
+
+
+깃 스테시 한번에 저장하는거? 없나???
+
+-Q-
+객체타입 VS 클래스타입
