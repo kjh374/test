@@ -17,7 +17,7 @@
 #깊은 복사
 #얕은 복사
 
-##System 클래스
+==System 클래스==
 #System.out:상수
 #System 클래스:static 멤버
 #System.gc();
@@ -32,7 +32,7 @@
 
 #환경변수
 
-##StringBuffer//StringBuilder
+==StringBuffer//StringBuilder==
 #append(문자열)
 #insert(인덱스, 삽입할 문자열)
 #replace(begin, end, 문자열)
@@ -83,30 +83,21 @@
 #getMonth();
 #getDayOfYear();
 #getDayOfWeek();
-#plus~();
+#plusXXX();
 #메서드 체인링
-#minus~();
-ChronoUnit.
-#~.between( , )
-#ofPattern(" ");
+#minusXXX();
+#ChronoUnit.XXX.between( , )
+#DateTimeFormatter.ofPattern(" ");
 #format();
 
 #util.Arrays
 #copyOf();
 #copyOfRange();
-#binarySearch();
-#이진탐색
 #Arrays.sort();
+#binarySearch();
+#이진탐색:사전정렬
 #Collections.reverseOrder():Integer[ ] 지원
 #Arrays.equals( , )
-
-
-
-
-
-
-#java.lang.*: Auto import Setting
-
 
 
 깃 스테시 한번에 저장하는거? 없나???

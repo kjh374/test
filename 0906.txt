@@ -1,0 +1,114 @@
+
+==Random 클래스==
+#nextXXX();
+#nextXXX(값);
+
+==Collection==
+---List Interface---
+#List:객체모음
+
+##ArrayList
+#ArrayList:크기
+#ArrayList:인덱스
+#ArrayList:중복저장
+#ArrayList:제네릭
+#ArrayList:선언
+#add(객체);
+#add(인덱스, 객체);
+#get(인덱스);
+#size(List);
+#set(인덱스, 수정 객체);
+#remove(인덱스);
+#remove(객체);
+#List 반복문 처리
+#contains(객체);
+#indexOf(객체);
+#clear(List);
+#isEmpty(List);
+#Collections.XXX:부가기능
+#Collections.addAll(List , );
+#Collections.frequency(List , );
+#Collections.max(List);
+#Collections.min(List);
+#Collections.sort(List);
+#Collections.sort(List, Collections.reverseOrder());
+#Collections.reverse(List);
+#Collections.swap(List, i, j);
+#Collections.fill(List, 객체);
+#향상 for문:리스트 에러
+#iterable
+
+##LinkedList
+#addFirst();
+#addLast();
+#getFirst();
+#getLast();
+#Queue 구현
+#LIFO
+#push(List);
+#pop();
+#peek();
+#FIFO
+#offer(객체);
+#poll();
+#peek();
+
+---Set Interface---
+#HashSet
+#인덱스X
+#순서X
+#중복저장X
+#iterator
+#Hash
+#add(객체)
+#size()
+#next()
+#hasNext()
+#for each문:iterator
+#remove(객체)
+#new ArrayList<>(set);
+#new HashSet<>(list)
+#hashCode vs 주소값
+
+
+
+while(win.contains(good)) {
+			win.add(good);
+			if(win.size()==6) break;
+		}
+
+for(Integer w : win) {
+				if(w!=bonus) {
+//					System.out.println(w!=bonus);
+					return bonus;
+				}
+			}
+for(Integer m : my) {
+				if(!m.equals(bonus)) {
+					prize3++;
+					break;
+				}
+				prize2++;
+				break;
+			}
+#Stack:클래스
+
+
+#Queue:인터페이스
+
+
+
+
+==Map==
+
+
+
+-q-
+#listQuiz 2 에서 이퀄즈 대신 ㅇ콘테인즈 하면 안디낭
+
+#		Collections.sort(myList);
+
+
+
+
+관련된 재, 내용을 미리 저장해놓고 질 이 오면 그걸 꺼내는 방식???
