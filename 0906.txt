@@ -39,6 +39,8 @@
 #iterable
 
 ##LinkedList
+#삭제:good
+#탐색:bad
 #addFirst();
 #addLast();
 #getFirst();

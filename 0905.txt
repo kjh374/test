@@ -1,38 +1,39 @@
 
 #예외 강제 발생:throw
+@package etc.exception.throw_;
 #throw:활용
 #사용자 정의 예외
 #사용자 정의 예외:상속
 #사용자 정의 예외:명명
 
-#자바 표준 api
-#java.lang
-#Object 클래스
+---자바 표준 api---
+@package etc.api.lang.obj;
+#api
+#java.lang:auto import
 #toString:override
-#toString:자동
+#toString:생략
 #finalize:deprecated
 #equals():override
 #clone()
 #hashCode():주소값
-#깊은 복사
-#얕은 복사
 
 ==System 클래스==
+@package etc.api.lang.system;
 #System.out:상수
 #System 클래스:static 멤버
 #System.gc();
 #System.exit():강제종료
+#유닉스 시간
 #System.currentTimeMillis();
 #System.nanoTime();
-#유닉스 시간
-
-#인터프리터
-#컴파일 언어
+#번역 방식:인터프리터
+#번역 방식: 컴파일러
 #자바:혼용
 
 #환경변수
 
 ==StringBuffer//StringBuilder==
+@package etc.api.lang.stringbuilder;
 #append(문자열)
 #insert(인덱스, 삽입할 문자열)
 #replace(begin, end, 문자열)
@@ -41,6 +42,7 @@
 #문자열 변수:final변수
 
 ##Math 클래스
+@package etc.api.lang.math;
 #static method
 #Math.ceil()
 #Math.floor()
@@ -52,6 +54,7 @@
 #Math.PI
 
 ##Wrapper 클래스
+@package etc.api.lang.wrapper;
 #기본 타입
 #참조 타입
 #Boolean
@@ -70,7 +73,8 @@
 #Autounboxing
 #컬렉션
 
-#LocalDate,LocalTime, LocalDateTime
+---LocalDate,LocalTime, LocalDateTime---
+@package etc.api.util.date;
 #KST
 #util package
 #time package
@@ -90,7 +94,8 @@
 #DateTimeFormatter.ofPattern(" ");
 #format();
 
-#util.Arrays
+---Arrays---
+@package etc.api.util.arrays;
 #copyOf();
 #copyOfRange();
 #Arrays.sort();

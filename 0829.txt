@@ -23,7 +23,8 @@
 
 ##2장-객체지향 프로그래밍
 #필드와 지역변수의 차이
-#string객체
+@package oop.string;public class StringMethod
+##string객체
 #string 제공 메서드: charAt() / substring( , ) / substring() / length() / indexOf() / lastIndexOf() / toLowerCase() / toUpperCase() / trim() / replace(old, new) / split() / valueOf()
 #string 관련 메서드: Integer.parseInt() / Double.parseDouble() 
 
