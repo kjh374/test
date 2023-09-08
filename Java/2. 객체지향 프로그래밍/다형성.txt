@@ -1,19 +1,5 @@
 
----MyBirth---
 
----overloading---
-#오버로딩:메서드
-
-# **
-#Math.pow( , )
-
----obj_arr---
-#generate getters and setters
-#generate Constructor using Fields
-#객체 배열
-
----ArrayInsert---
-#setter메서드 활용
 
 ==다형성==
 #다형성:조건
@@ -38,11 +24,13 @@
 #타입 캐스팅
 
 
-===TIP===
-#alt + shift + R
-#난수 발생: 길이/미만
+---poly.casting---
 
+#데이터 타입: 변수의 정보
+#강제 타입 변환(Downcasting)
+#Session 객체
+#다형성:미발생
+#instanceof:정의
+#instanceof:문법
 
-
-
-
+#초기화:경우의 수

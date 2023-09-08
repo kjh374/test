@@ -1,0 +1,25 @@
+#정적 데이터
+#동적 데이터
+#HTML
+#Container
+#HTTP통신
+#요청
+#응답
+
+
+#JSP 변환:서블릿(.java)
+#JSP 태그:구분
+#Scriptlet
+#Jsp주석:미노출
+#<%= :Expression
+# <% - -: 주석
+#JSP 응답:HTML
+
+~tomcat.apache.org~tomcat9
+javaEE
+#IP:localhost
+
+
+@C:\MyWork\apache-tomcat-9.0.80\work\Catalina\localhost\JspBasic\org\apache\jsp
+
+

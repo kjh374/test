@@ -27,33 +27,42 @@
 #Stream:통로
 
 ---Byte 기반 스트림---
+##File:경로
+
+#mkdir()
+#mkdirs()
+#delete():비추천
+#isDirectory()
+#listFiles()
+
 ##OutputStream
+
 #FileOutputStream
 #\\
 #/
 #getBytes()
 #write(byte[])
-#write( , ,)
 #close():객체반납
 #finally
 
 ##inputStream클래스
+
 #FileInputStream
-#read()
-#read(byte[ ])
+#read():1byte씩 읽어들임
+#read(byte[])
 #-1 반환
 #한글:2byte
 
-##File:경로
-#mkdir()
-#mkdirs()
-#delete()
-#isDirectory()
-#listFiles()
+
 
 ---문자 기반 스트림---
 @package etc.api.io.rw;
-#유니코드 방식
+#유니코드화
+#Text파일 전용
+##FileWriter
+#write(String)
+##FileReader
+#read(char[])
 #\r:캐리지 리턴
 
 ---Buffered---
@@ -62,8 +71,12 @@
 #buffered
 #buffer
 #close():역순반납 권장
-#readLine()
+##BufferedWriter
 
+##BufferedReader
+#readLine()
+##BufferedOutputStream
+##BufferedInputStream
 
 
 #참조값

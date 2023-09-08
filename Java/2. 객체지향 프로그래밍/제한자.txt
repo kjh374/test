@@ -1,14 +1,11 @@
+##접근 제한자
+#접근 제한자:종류/범위
+#default 제한자
+#public 제한자
+#private 제한자
+#protected 제한자
 
----poly.casting---
 
-#데이터 타입: 변수의 정보
-#강제 타입 변환(Downcasting)
-#Session 객체
-#다형성:미발생
-#instanceof:정의
-#instanceof:문법
-
-#초기화:경우의 수
 
 #static
 #정적 멤버
@@ -40,21 +37,3 @@
 #final클래스:상속 금지
 #상수:전역성 & 불변성
 #상수:대문자
-
----abs---
-#추상 메서드
-#추상 클래스
-#일반 메서드
-#일반 멤버변수
-#super
-
-
-
-#멤버 함수
-
-
-
-
-
-
-

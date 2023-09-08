@@ -3,7 +3,8 @@
 #nextXXX();
 #nextXXX(값);
 
-==Collection==
+====Collection====
+
 ---List Interface---
 #List:객체모음
 
@@ -56,10 +57,10 @@
 #peek();
 
 ---Set Interface---
-#HashSet
+#중복저장X
+##HashSet
 #인덱스X
 #순서X
-#중복저장X
 #iterator
 #Hash
 #add(객체)
@@ -72,7 +73,7 @@
 #new HashSet<>(list)
 #hashCode vs 주소값
 
-
+===================
 
 while(win.contains(good)) {
 			win.add(good);

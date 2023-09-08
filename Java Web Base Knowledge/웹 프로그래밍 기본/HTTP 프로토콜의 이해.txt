@@ -1,0 +1,35 @@
+---인터넷 통신 방법---
+#Client:서비스 이용자
+#Server:서비스 제공자
+#request
+#response
+#IP
+#packet
+#출발지IP
+#도착지IP
+#비연결성
+#비신뢰성
+#프로그램 구분 불가능
+#TCP
+#연결성
+#신뢰성
+#데이터 전달 순서 보장
+#3-way-handshake
+#SYN
+#ACK
+#세그먼트
+#PID
+#PID:Well-Known Port
+#PID:할당 가능 범위
+#DNS
+#Http
+#Https
+#URI
+#URL
+#URN
+#scheme
+#userinfo
+#host
+#path
+#query:?, &
+#fragment
