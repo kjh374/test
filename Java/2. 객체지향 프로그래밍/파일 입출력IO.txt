@@ -1,30 +1,8 @@
----Map Interface--
-@package etc.api.collection.map;
-
-#자료구조:Key - Value
-#HashMap:클래스
-#멀티 제네릭
-#key:고유값
-#LinkedHashMap:클래스
-#put(key, value)
-#containsKey(key)
-#get(key)
-#size()
-#keySet()
-#remove(key)
-#clear()
-
----Generic---
-@package etc.generic.bad;
-#Generic 클래스
-#<T>
-#<E>
-#타입: 외부 지정
-#객체타입
-
 ===파일 입출력:IO===
 @package etc.api.io.stream;
 #Stream:통로
+#\\
+#/
 
 ---Byte 기반 스트림---
 ##File:경로
@@ -36,11 +14,8 @@
 #listFiles()
 
 ##OutputStream
-
 #FileOutputStream
-#\\
-#/
-#getBytes()
+
 #write(byte[])
 #close():객체반납
 #finally
@@ -53,8 +28,6 @@
 #-1 반환
 #한글:2byte
 
-
-
 ---문자 기반 스트림---
 @package etc.api.io.rw;
 #유니코드화
@@ -65,29 +38,16 @@
 #read(char[])
 #\r:캐리지 리턴
 
----Buffered---
+---------Buffered---------
 @package etc.api.io.buffered;
 #입출력 성능향상 스트림
 #buffered
 #buffer
 #close():역순반납 권장
 ##BufferedWriter
-
 ##BufferedReader
 #readLine()
 ##BufferedOutputStream
 ##BufferedInputStream
 
-
 #참조값
-
-
-
-
-...
-토스
-
-바이트 크기가 100인데 이미지는 8키로바이트..?
-한번에 읽어들일 단위설정!!
-
-투자

@@ -1,0 +1,51 @@
+-----------EL--------------
+#EL:정의
+#EL:표현식
+#EL:기본문법
+#XXXScope
+#param
+#EL:접근범위
+#gt / lt : 좌항기준
+#데이터 참조:Scope생략
+#수명 길이:page
+#수명 길이:request
+#수명 길이:session
+#수명 길이:application
+#데이터 참조:영역명시
+#멤버변수 입력:getter 자동호출
+#자동 형변환
+
+
+------------JSTL-----------
+#자바코드 대체
+#Core:핵심기능
+#Core:Tags
+#Formatting
+#<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+#c:set
+#c:set :: else X
+#var
+#value
+#scope
+#scope:default
+#c:choose
+#c:when
+#test
+#c:otherwise
+
+#반복문
+#c:set::변경
+#setAttribute( , ):변경 이랑 가틍ㅁ
+#step:생략
+
+
+
+
+빈태그
+
+#<%@:directive
+
+
+arrays.aslist
+
+

@@ -15,6 +15,7 @@
 #git push -f <remoteName> <localBranch>
 #git log
 #git remote
+#git remote --add
 #git diff
 #git commit
 #git add
@@ -57,3 +58,4 @@
 
 
 
+깃 스테시 한번에 저장하는거? 없나???

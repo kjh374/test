@@ -1,0 +1,39 @@
+##예외처리
+#예외???
+#에러???
+#Serious Error
+#심각한 예외
+#덜 심각한 예외
+#예외처리
+#Mild Error
+#컴파일 오류
+#런타임 오류
+#코드 보험
+#베타 테스터
+
+#대표 실행 예외:종류
+#Integer.parseInt(str);
+
+##예외 처리 문법
+#try/catch
+#최상위 예외 클래스
+#다중 catch문
+#멀티 catch문
+#getMessage();
+
+
+--MainClass--
+#buffer
+#nextLine()
+#finally
+#throws:문법
+#throws:경고
+#thorws:일괄 처리
+#printStackTrace()
+
+#예외 강제 발생:throw
+@package etc.exception.throw_;
+#throw:활용
+#사용자 정의 예외
+#사용자 정의 예외:상속
+#사용자 정의 예외:명명

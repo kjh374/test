@@ -1,0 +1,5 @@
+자동완성 활용.
+#주석: Ctrl + Shift + C
+#주석: Ctrl + Shitf + /
+#history.back();
+#location.href

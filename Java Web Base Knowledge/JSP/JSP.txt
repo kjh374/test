@@ -6,20 +6,98 @@
 #요청
 #응답
 
-
-#JSP 변환:서블릿(.java)
+#JSP:.jsp
+#JSP:혼합코드
+#웹 서버
+#서블릿:.java
+#서블릿:순수자바코드
 #JSP 태그:구분
 #Scriptlet
 #Jsp주석:미노출
-#<%= :Expression
-# <% - -: 주석
+#<%= 
+# <% --:주석
 #JSP 응답:HTML
 
 ~tomcat.apache.org~tomcat9
 javaEE
 #IP:localhost
 
-
 @C:\MyWork\apache-tomcat-9.0.80\work\Catalina\localhost\JspBasic\org\apache\jsp
+
+
+
+==========JSP 내장 객체============
+#서블릿:자동 생성 객체 
+#웹컨테이너:TOMCAT
+#Request
+#Response
+#session
+#out
+#application
+
+#submit:제출
+
+-----서블릿 맵핑-----
+#클래스:웹경로X
+##맵핑:Java Annotation
+#WebServlet("/사용자 지정 url")
+##맵핑:web.xml
+#eXtensible Markup Language
+#데이터 표현 기준
+#데이터 전달 수단
+#제이슨
+#서블릿 등록
+#가상 URL Mapping
+#/JspBasic/basic
+#localhost:생략
+
+#기본메서드:get
+#name:queryParameter
+
+
+#class수정: 서버 재시
+
+-------service()-------
+#자동 호출
+#매개값:요청/응답 내장 객체
+
+# HttpServletRequest:요청 내장 객체
+#getMethod()
+#getURI()
+#getQueryString()
+#getRemoteAddr()
+#getParameter()
+
+##HttpServletResponse:응답 내장 객체
+#응답:HTML
+#setContentType()
+#setCharacterEncoding()
+#sendRedirect()
+#PrintWriter:응답구현 객체
+#getWriter()
+#write()
+#flush()
+#close()
+
+-------doGet()-------
+
+
+-------doPost()-------
+#post요청
+#요청헤더
+#메시지 바디
+#디코딩
+#재인코딩
+#setCharacterEncoding()
+#queryString: null
+#0:0:0:0:0:0:0:1  :localhost
+#127.0.0.1 :localhost
+
+---destroy()---
+#서버내림
+
+#@WebServlet:url mapping
+
+
 
 
