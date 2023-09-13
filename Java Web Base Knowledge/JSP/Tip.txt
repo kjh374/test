@@ -3,3 +3,10 @@
 #주석: Ctrl + Shitf + /
 #history.back();
 #location.href
+
+버튼타입지정필수
+#confirm
+#return confirm
+
+-----request----
+#getMethod()

@@ -1,0 +1,4 @@
+checkbox: value필수
+
+em:부모(폰트존재) 폰트대비 배율
+rem:html 대비 배율

@@ -1,0 +1,38 @@
+#예외 페이지
+#개발과정
+#코드 노출
+#불쾌감
+
+#HTTP 응답 상태 코드
+#404
+#500
+#200
+#307
+#400
+#405
+#503
+
+
+#에러페이지:우선순위
+
+##예외 처리:페이지 지정
+#페이지 지시자 태그
+#<%@ page errorPage="error_page02.jsp" %>    
+#<%@ page isErrorPage="true" %>
+
+##web.xml:등록
+
+#HTTP 응답 상태 코드
+#error-page
+#error-code
+#location
+
+#자바에러타입
+#error-page
+#exception-type
+#location
+
+#톰캣제공 에러페이지
+
+
+

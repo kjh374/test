@@ -40,7 +40,7 @@ javaEE
 -----서블릿 맵핑-----
 #클래스:웹경로X
 ##맵핑:Java Annotation
-#WebServlet("/사용자 지정 url")
+#WebServlet("/사용자 지정 url path")
 ##맵핑:web.xml
 #eXtensible Markup Language
 #데이터 표현 기준
@@ -97,6 +97,30 @@ javaEE
 #서버내림
 
 #@WebServlet:url mapping
+
+
+#톰캣:서블릿 자동변환
+
+#서블릿:객체
+#서블릿:제작
+#상속:HttpServlet
+#생성자 선언
+#오버라이딩
+#init()
+#service()
+
+
+#GET
+#데이터 요청
+#크기 제한
+#POST
+#메시지 바디
+#데이터 전송
+#데이터 양 제한 X
+
+
+
+
 
 
 

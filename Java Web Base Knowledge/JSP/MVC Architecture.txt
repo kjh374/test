@@ -1,0 +1,53 @@
+#MVC 구조
+#WAS
+#역할 구분
+#(Front) Controller:흐름제어전담
+#서비스 객체:잡일
+#Model계층:외부연동전담
+
+
+#DAO:DB접근전담
+#VO:객체 포장
+#ValueObject
+#자바 빈
+#웹 프로그래밍 자바 객체
+#자바 빈:규약
+
+
+#View계층:응답전담
+
+#JSP가 요청할 필요 없음
+
+#디렉토리 패턴
+#확장자 패턴:*.XXX
+
+#getRequestURI()
+#getContextPath().length()
+
+#lastInderOf()
+
+#List<board객체> 
+
+#sendRedirect:재요청 유도
+
+
+#request.setAttribute( , )
+
+#fowarding
+#요청위임
+#RequestDsipatcher
+#forward()
+
+#formatting
+#fmt:parseDate
+#fmt:formatDate
+
+#varStatus
+#count
+#index
+#current
+
+#path!=query
+
+
+자동맵핑되나 자동서블릿은

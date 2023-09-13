@@ -12,11 +12,13 @@
 #수명 길이:session
 #수명 길이:application
 #데이터 참조:영역명시
-#멤버변수 입력:getter 자동호출
+#멤버변수 :getter 자동호출(자바빈규약) @el_obj2.jsp
 #자동 형변환
-
+#EL:생성X
+#
 
 ------------JSTL-----------
+#지시자 태그
 #자바코드 대체
 #Core:핵심기능
 #Core:Tags
@@ -26,6 +28,9 @@
 #c:set :: else X
 #var
 #value
+#변수저장:객체
+
+
 #scope
 #scope:default
 #c:choose
@@ -38,6 +43,7 @@
 #setAttribute( , ):변경 이랑 가틍ㅁ
 #step:생략
 
+#Formatting Tags
 
 
 
