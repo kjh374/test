@@ -9,47 +9,47 @@
 #ArrayList:중복저장
 #ArrayList:제네릭
 #ArrayList:선언
-#add(객체);
-#add(인덱스, 객체);
-#get(인덱스);
-#size(List);
-#set(인덱스, 수정 객체);
-#remove(인덱스);
-#remove(객체);
+#add(객체)
+#add(인덱스, 객체)
+#get(인덱스)
+#size()
+#set(인덱스, 수정 객체)
+#remove(인덱스)
+#remove(객체)
 #List 반복문 처리
-#contains(객체);
-#indexOf(객체);
-#clear(List);
-#isEmpty(List);
+#contains(객체)
+#indexOf(객체)
+#clear(List)
+#isEmpty(List)
 #Collections.XXX:부가기능
-#Collections.addAll(List , );
-#Collections.frequency(List , );
-#Collections.max(List);
-#Collections.min(List);
-#Collections.sort(List);
-#Collections.sort(List, Collections.reverseOrder());
-#Collections.reverse(List);
-#Collections.swap(List, i, j);
-#Collections.fill(List, 객체);
+#Collections.addAll(List , )
+#Collections.frequency(List , )
+#Collections.max(List)
+#Collections.min(List)
+#Collections.sort(List)
+#Collections.sort(List, Collections.reverseOrder())
+#Collections.reverse(List)
+#Collections.swap(List, i, j)
+#Collections.fill(List, 객체)
 #향상 for문:리스트 에러
 #iterable
 
 ##LinkedList
 #삭제:good
 #탐색:bad
-#addFirst();
-#addLast();
-#getFirst();
-#getLast();
+#addFirst()
+#addLast()
+#getFirst()
+#getLast()
 #Queue 구현
 #LIFO
-#push(List);
-#pop();
-#peek();
+#push(List)
+#pop()
+#peek()
 #FIFO
-#offer(객체);
-#poll();
-#peek();
+#offer(객체)
+#poll()
+#peek()
 
 ---Set Interface---
 #중복저장X
@@ -64,7 +64,7 @@
 #hasNext()
 #for each문:iterator
 #remove(객체)
-#new ArrayList<>(set);
+#new ArrayList<>(set)
 #new HashSet<>(list)
 #hashCode vs 주소값
 
@@ -76,10 +76,10 @@
 
 ==Map==
 
-#		Collections.sort(myList);
+#		Collections.sort(myList)
 
 ---Map Interface--
-@package etc.api.collection.map;
+@package etc.api.collection.map
 
 #자료구조:Key - Value
 #HashMap:클래스
@@ -94,8 +94,8 @@
 #remove(key)
 #clear()
 
----Generic---
-@package etc.generic.bad;
+-----Generic-----
+@package etc.generic.bad
 #Generic 클래스
 #<T>
 #<E>
