@@ -1,20 +1,12 @@
----enum---
-@package etc.enum_.basic;
-#enum:열거형 타입
-#values()
-#ordinal():서수값
-#valueOf(String)
-#상수("연관시킬 문자")
-#세미콜론
 
+---------------내부클래스(Inner Class)---------------
 @package etc.inner;
-#내부클래스
-#private
+#private class 선언 가능
 #static
+#다중선언
 #익명클래스
-#익명클래스:문법
-#람다식:조건
-#람다식:문법
+
+
 
 
 

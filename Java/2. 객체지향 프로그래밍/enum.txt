@@ -1,0 +1,8 @@
+---enum---
+@package etc.enum_.basic;
+#열거타입
+#values()
+#ordinal()
+#valueOf(String)
+#상수("연관시킬 문자")
+#세미콜론

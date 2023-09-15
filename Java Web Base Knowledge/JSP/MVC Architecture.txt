@@ -1,21 +1,18 @@
 #MVC 구조
 #WAS
 #역할 구분
-#(Front) Controller:흐름제어전담
-#서비스 계층:로직처리전담
-#Model계층:외부연동전담
 
+##View계층:응답전담
+#JSP가 요청할 필요 없음
+##(Front) Controller계층:흐름제어전담
+##Model계층:외부연동전담
+#서비스 계층:로직처리전담
 
 #DAO:DB접근전담
 #VO:데이터 포장
 #ValueObject
 #자바 빈
 #자바 빈:규약
-
-
-#View계층:응답전담
-
-#JSP가 요청할 필요 없음
 
 #디렉토리 패턴
 #확장자 패턴:*.XXX
