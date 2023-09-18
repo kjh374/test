@@ -48,14 +48,13 @@
 #git restore
 #git reset
 #git fetch
-#git pull
+#git pull origin master
 #git clone
 #git merge
 #git config
 #git commend --amend
 #git rebase -i
 #git rebase --continue
-
 
 
 깃 스테시 한번에 저장하는거? 없나???

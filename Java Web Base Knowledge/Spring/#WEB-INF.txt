@@ -1,0 +1,78 @@
+
+
+#WEB-INF
+#보안성
+
+#Dispatcher Servlet
+#front controller
+#url 검사
+#Handler Adaptor
+#Handler Mapping
+#Controller 탐색
+#Controller 보고
+#메서드 실행 명령
+#메서드 결과 보고
+
+#web.xml
+#org.springframework.web.servlet.DispatcherServlet
+#init-param
+#servlet-context.xml
+#<load-on-startup>1</load-on-startup>
+#url-pattern
+#/
+#<annotation-driven />
+#정적자원
+#<resources mapping="/resources/**" location="/resources/" />
+#<beans:bean>
+#<context:component-scan base-package="com.spring.basic" />
+#@Controller
+#@Controller(" ")
+##@RequestMapping()
+#both
+#value
+#method
+#RequestMethod.GET
+#return "home"
+#return skip
+#GetMapping(" ")
+#PostMapping(" ")
+#공통URL맵핑
+##ViewResolver
+#완성된 경로
+#ref
+#value
+#prefix
+#suffix
+
+#forward:default (Spring)
+
+#파일명리턴
+#Model Object (요청위임)
+#<context-param>
+#<listener>
+
+-----------Query String 읽기----------
+##HttpRequestServlet
+
+##@RequestParam("파라미터변수") String 받아줄 변수
+#@RequestParam skip
+#400 Error: boolean required() default true;
+#value 생략
+#required = false
+#defaultValue
+#Front End:유효성 검사
+
+##커맨드 객체
+#VO활용
+#ParameterName
+----------------------------------------------
+
+#CharacterEncodingFilter
+#forceEncoding
+
+
+
+
+#모델 객체
+
+

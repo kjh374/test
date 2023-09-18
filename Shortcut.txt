@@ -7,3 +7,7 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 
 
 #Shift + Art + S
+#Alt + F5 : Maven Update
+
+
+#Shift + : 실시간 대문자 변환

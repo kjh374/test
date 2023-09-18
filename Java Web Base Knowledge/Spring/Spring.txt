@@ -67,11 +67,9 @@
 
 
 -------------Spring Core--------------
-##스프링 컨테이너
-#싱글톤 컨테이너
+#스프링 컨테이너(IoC, DI Container)
+#Singleton
 #(scope="prototype")
-#IoC(제어권역전) 컨테이너
-#DI 컨테이너
 
 #Bean
 #객체생성
@@ -90,8 +88,22 @@
 #<context:annotation-config />
 ##@Autowired
 #@Qualifier("bean id")
-#Constructor Injection
+#Constructor Injection (Major)
 #Setter Injection
 #Field Injection
+#NullPointerException방지
+#final선언
+@RequiredArgsConstructor
+
+
+#legacy(MVC)
+
+
+#Group ID
+#Artifact ID
+#Project Name
+
+
+
 
 
