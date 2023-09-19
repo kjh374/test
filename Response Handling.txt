@@ -1,0 +1,46 @@
+
+-----데이터 전송----
+
+#Model
+#데이터 운반
+#Auto forwarding
+
+
+#@ModelAttribute
+
+#@ModelAndView
+#setObject( , ) (= model.addAttribute( , ) )
+#setViewName("") (= return String )
+
+---javaScript----
+#change
+#요소취득
+#const
+#$Name:관례
+
+#inline
+#property
+#addeventlistener
+
+#arrow function
+#()
+#event 객체
+#target
+#value
+
+
+#400:Bad Request
+
+
+#변환종료:js사용가능
+#렌더링
+
+#modelmap
+
+#redirect:/URL
+
+
+
+
+
+

@@ -4,5 +4,6 @@
 #values()
 #ordinal()
 #valueOf(String)
-#상수("연관시킬 문자")
+#열거상수("연관시킬 문자")
+# _
 #세미콜론
