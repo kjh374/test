@@ -1,0 +1,15 @@
+======JavaScript======
+
+#가상 클래스 선택자
+#시멘틱 태그
+#이벤트 전파
+#이벤트 객체
+#addEventListener()
+#e.target.matches()
+#confirm
+#getAttribute()
+#preventDefault()
+#location.href
+#history.back()
+#history.go()
+

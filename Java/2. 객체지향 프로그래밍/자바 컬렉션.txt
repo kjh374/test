@@ -1,7 +1,7 @@
 ====Collection====
 #객체관리
 
-+List Interface+
+----List Interface----
 #List:객체모음
 
 ##ArrayList
@@ -34,6 +34,8 @@
 #Collections.fill(List, 객체)
 #향상 for문:리스트 에러
 #iterable
+#Map-List 변환
+#List<Score> scoreList = new ArrayList<Score>(Map.values());
 
 ##LinkedList
 #삭제:good
@@ -52,7 +54,7 @@
 #poll()
 #peek()
 
----Set Interface---
+-------Set-------
 #중복저장X
 ##HashSet
 #인덱스X
@@ -69,17 +71,15 @@
 #new HashSet<>(list)
 #hashCode vs 주소값
 
-
-#Stack:클래스
-
-#Queue:인터페이스
+#Stack
+#Queue
 
 
-==Map==
+=======Map=======
 
-#		Collections.sort(myList)
+#Collections.sort(myList)
 
----Map Interface--
+----------Map---------
 @package etc.api.collection.map
 
 #자료구조:Key - Value
@@ -94,6 +94,7 @@
 #keySet()
 #remove(key)
 #clear()
+#values()
 
 -----Generic-----
 @package etc.generic.bad

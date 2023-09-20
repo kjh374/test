@@ -11,3 +11,10 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 
 
 #Shift + : 실시간 대문자 변환
+
+-----Visual Studio-----
+# Ctrl + H : 문자 변환
+# Ctrl + Shift + L : 다중입력
+# Ctrl + Art + 위아래 화살표
+# +
+

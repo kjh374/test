@@ -1,0 +1,11 @@
+Oracle
+MySQL
+MariaDB
+PostgresSQL
+MongoDB
+Redis
+
+aws
+
+javaX
+
