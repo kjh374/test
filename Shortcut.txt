@@ -18,3 +18,15 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 # Ctrl + Art + 위아래 화살표
 # +
 
+
+
+
+
+---db----
+#Ctrl + Enter
+#Ctrl + F7
+#Ctrl + /
+#Drag & Alt + Shift + C
+#Ctrl + Shift + V
+
+

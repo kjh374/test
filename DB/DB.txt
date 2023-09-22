@@ -1,0 +1,207 @@
+Oracle
+MySQL
+MariaDB
+PostgresSQL
+MongoDB
+Redis
+
+aws
+
+javaX
+
+#SQL+
+#hr
+#system
+#oracle
+#alter user hr account unlock;
+#alter user hr identified by hr;
+#connect
+#기본계정
+#select * from
+#CLI
+#저장불가
+#GUI
+#SID
+#팬그램
+
+#SQL 기본
+
+#관계형 데이터베이스
+
+#중복 최소화
+#DBMS
+
+
+#데이터 정의
+#데이터 조작
+#데이터 보안
+#데이터 무결성
+#트랜잭션 관리
+
+
+#SQL
+#RDBMS
+#DDL
+#DML
+#DCL
+#TCL
+
+--------테이블--------
+#Row (Record)
+#Column (Field)
+#Primary Key
+#Foreign Key
+#join
+
+------ERD------
+#Entity
+#Attribute
+#Relationship
+
+----------SQL-----------
+#SQL 실행순서
+#--
+#/**/
+#FROM
+#SELECT
+#키워드
+#식별자
+#줄개행
+#연산
+#NULL
+#as (alias)
+# ||
+# '
+# ''
+#DISTINCT
+#ROWNUM
+#ROWID
+#6 4 4 4
+#WHERE
+#동등 비교 연산자
+#VARCHAR2(LENGTH)
+#대소문자 구분
+#AND
+#DATE타입
+#BETWEEN X AND Y
+#IN
+#LIKE
+#%
+# _
+#IS NULL
+#IS NOT NULL
+#OR
+#연산순서
+#( )
+#ORDER BY (마지막)
+#ASC (Default)
+#DESC
+
+---문자열함수---
+#LOWER( )
+#INITCAP( )
+#UPPER( )
+#dual (dummy Table)
+
+#sys
+#LENGTH()
+#INSTR( , )
+#SUBSTR( , , )
+#SUBSTR( , )
+#CONCAT( , )
+#인덱스
+
+
+#LPAD( , , )
+#RPAD( , , )
+#LTRIM( , )
+#RTRIM( , )
+#TRIM( )
+#공백:문자열
+#REPLACE( , , )
+
+
+--숫자함수--
+#ROUND( , )
+#TRUNC( )
+#TRUNC( , )
+#ABS( )
+#CEIL( )
+#FLOOR()
+# /
+#MOD( , )
+
+--날짜함수--
+#sysdate
+#systimestamp
+#날짜 + 정수
+#날짜 - 날짜
+#ROUND(날짜)
+#ROUND( , 'year')
+#ROUND( , 'month')
+#ROUND( , 'day')
+
+--형변환함수--
+#TO_CHAR(값, 형식)
+#YYYY-MM-DD DY PM HH:MI:SS
+#YYYY-MM-DD HH24:MI:SS
+#" "
+#'9'
+#'.'
+#','
+#'$'
+#'L'
+#자동 형 변환
+#TO_NUMBER( , )
+#명시적 형 변환
+#TO_DATE(문자값)
+#TO_DATE(문자값, 형식)
+#NVL( , )
+#NVL2( , , )
+#DECODE( ,  , , ... , )							
+#CASE WHEN THEN ELSE END
+
+---집합 연산자---
+#조건
+
+#UNION
+
+#UNION ALL
+
+#INTERSECT
+
+#MINUS
+
+
+--그룹 함수
+#그룹화
+#자동그룹화
+#AVG( )
+#MAX( )
+#MIN( )
+#SUM( )
+#COUNT( )
+#COUNT(*)
+#GROUP BY
+#HAVING
+#일반 조건 vs 그룹화 조건
+
+---조인
+#조인
+#ANSI 표준 조인
+#PK
+#FK
+#테이블 별칭
+
+
+
+
+
+
+
+
+
+
+
+
+
