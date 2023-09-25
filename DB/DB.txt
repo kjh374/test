@@ -188,16 +188,38 @@ javaX
 
 ---조인
 #조인
+#오라클 조인
 #ANSI 표준 조인
 #PK
 #FK
 #테이블 별칭
+#조인조건
+#내부조인
+#(INNER) JOIN ~ ON
+#외부조인
+#LEFT (OUTER) JOIN ~ ON
+#RIGHT (OUTER) JOIN ~ ON
+#FULL (OUTER) JOIN ~ ON
+#CROSS JOIN
+#카테시안 곱(Cartesian Product)
+#SELF JOIN ~ ON
+#ON
+#(+)
+#Optimizer
+#우선인식
+#일반조건(+)
 
-
-
-
-
-
+#서브쿼리
+#검색결과 활용
+#내부 SQL
+#(SQL)
+#WHERE절 서브쿼리
+#단일 행 서브쿼리
+#<>
+#비교 연산자
+#단일 행 연산자
+#다중 행 연산자
+#IN
 
 
 
