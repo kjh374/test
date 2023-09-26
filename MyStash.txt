@@ -1,0 +1,20 @@
+Q1. join & where order.???
+
+Q2. = ANY == IN ???
+
+Q3. 왜 tbl.* ??? (09_서브쿼리 156row)
+ table이 생략???
+
+Q4. -- EXISTS: 서브쿼리가 하나 이상의 행을 반환하면 참으로 간주.
+-- job_history에 존재하는 직원이 employees에도 존재한다면 조회에 포함
+SELECT * FROM employees e
+WHERE EXISTS (SELECT 1 FROM job_history jh
+                WHERE e.employee_id = jh.employee_id);
+                
+
+SELECT * FROM employees
+WHERE EXISTS (SELECT 1 FROM departments
+                WHERE department_id = 80);
+
+Q5. 09_서브쿼리 연습문제 1.1 왜 AVG바로쓰면 안돼???
+

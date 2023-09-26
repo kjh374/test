@@ -220,8 +220,38 @@ javaX
 #단일 행 연산자
 #다중 행 연산자
 #IN
+#ANY
+#SOME
+#ALL
+#EXISTS
+# 1
+#스칼라 서브쿼리
+#인라인 뷰
+#SQL 실행순서 조작
 
 
+#DESC
+#INSERT INTO 
+#VALUES( )
+#null
+#ROLLBACK
+#(columnName)
+#사본 테이블
+#CREATE TABLE ~ AS ( ) : CTAS
+#DROP TABLE
+#WHERE 1 = 2
+#INSERT (서브쿼리)
+#UPDATE SET
+#UPDATE (서브쿼리)
+#CRUD
+#DELETE FROM
+#DELETE (서브쿼리)
+#MERGE INTO
+#USING
+#ON(연결조건)
+#WHEN MATCHED THEN
+#WHEN NOT MATCHED THEN
+#UPDATE DELETE
 
 
 
