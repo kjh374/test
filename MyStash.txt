@@ -1,7 +1,5 @@
 Q1. join & where order.???
 
-Q2. = ANY == IN ???
-
 Q3. 왜 tbl.* ??? (09_서브쿼리 156row)
  table이 생략???
 
@@ -16,5 +14,11 @@ SELECT * FROM employees
 WHERE EXISTS (SELECT 1 FROM departments
                 WHERE department_id = 80);
 
-Q5. 09_서브쿼리 연습문제 1.1 왜 AVG바로쓰면 안돼???
+
+사람이 살고 있는 집을 허물 수는 없듯이
+
+
+
+tab기능..ㅠ
+
 

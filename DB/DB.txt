@@ -173,7 +173,7 @@ javaX
 #MINUS
 
 
---그룹 함수
+---그룹 함수
 #그룹화
 #자동그룹화
 #AVG( )
@@ -183,6 +183,7 @@ javaX
 #COUNT( )
 #COUNT(*)
 #GROUP BY
+#그룹함수
 #HAVING
 #일반 조건 vs 그룹화 조건
 
@@ -227,6 +228,7 @@ javaX
 # 1
 #스칼라 서브쿼리
 #인라인 뷰
+#별칭:*
 #SQL 실행순서 조작
 
 
@@ -248,12 +250,71 @@ javaX
 #DELETE (서브쿼리)
 #MERGE INTO
 #USING
-#ON(연결조건)
+#ON(병합조건)
 #WHEN MATCHED THEN
 #WHEN NOT MATCHED THEN
 #UPDATE DELETE
 
 
+#DML:CRUD
+#트랜잭션
+#SHOW AUTOCOMMIT
+#SET AUTOCOMMIT
+#ON
+#OFF
+#ROLLBACK
+#COMMIT
+#SAVEPOINT(Oracle DB)
+#ROLLBACK TO SAVEPOINT 
+
+#DDL
+#CREATE
+#ALTER
+#ADD
+#RENAME
+#MODIFY
+#DROP
+#TRUNCATE
+#column Name, type, length
+#NUMBER( )
+#NUMBER( , )
+#NUMBER
+#(38, 0)
+#VARCHAR2( )
+#CLOB
+#BLOB
+#DATE
+#CHAR(크기고정)
+#한글:3Byte
+#제약조건
+#CONSTRAINT
+#PRIMARY KEY(UNIQUE + NOT NULL)
+#NOT NULL(CONSTRAINT X)
+#UNIQUE
+#REFERENCES (NULL O)
+#FOREIGN KEY
+#CHECK
+#부모테이블(참조테이블)
+#테이블 레벨 제약 조건
+#컬럼 레벨 제약 조건
+#user_constraints
+#view
+#user_sys_privs
+#CREATE VIEW
+#alias
+#가상 표현식
+#함수 표현식
+#함수 호출문
+#연산식
+#단순 뷰
+#복합 뷰
+#CREATE OR REPLACE VIEW
+#DROP VIEW
+#원본반영
+#WITH CHECK OPTION 
+#WITH READ ONLY
 
 
+
+#TCL
 
