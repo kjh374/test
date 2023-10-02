@@ -41,7 +41,7 @@ javaX
 
 #SQL
 #RDBMS
-#DDL
+#DDL:객체생성
 #DML
 #DCL
 #TCL
@@ -242,12 +242,9 @@ javaX
 #CREATE TABLE ~ AS ( ) : CTAS
 #DROP TABLE
 #WHERE 1 = 2
-#INSERT (서브쿼리)
 #UPDATE SET
-#UPDATE (서브쿼리)
 #CRUD
 #DELETE FROM
-#DELETE (서브쿼리)
 #MERGE INTO
 #USING
 #ON(병합조건)
@@ -255,7 +252,7 @@ javaX
 #WHEN NOT MATCHED THEN
 #UPDATE DELETE
 
-
+#TCL
 #DML:CRUD
 #트랜잭션
 #SHOW AUTOCOMMIT
@@ -276,11 +273,11 @@ javaX
 #DROP
 #TRUNCATE
 #column Name, type, length
-#NUMBER( )
+#NUMBER(자릿수)
 #NUMBER( , )
 #NUMBER
 #(38, 0)
-#VARCHAR2( )
+#VARCHAR2(바이트 수)
 #CLOB
 #BLOB
 #DATE
@@ -289,7 +286,7 @@ javaX
 #제약조건
 #CONSTRAINT
 #PRIMARY KEY(UNIQUE + NOT NULL)
-#NOT NULL(CONSTRAINT X)
+#NOT NULL
 #UNIQUE
 #REFERENCES (NULL O)
 #FOREIGN KEY
@@ -314,7 +311,60 @@ javaX
 #WITH CHECK OPTION 
 #WITH READ ONLY
 
+#시퀀스(vs AUTO INCREMENT)
+#CREATE SEQUENCE
+#START WITH(수정불가)
+#INCREMENT BY
+#MAXVALUE 
+#MINVALUE 
+#NOCACHE
+#NOCYCLE
+#NEXTVAL
+#CURRVAL
+#ALTER SEQUENCE
+#DROP SEQUENCE
 
+#계획 설명(IKON)
+#CREATE INDEX
+#ON
+#full scan
+#fast full scan
+#range scan
+#DROP INDEX
+#PRIMARY KEY(자동생성)
+#ALTER INDEX RENAME TO
+# /*+ INDEX(table_name index_name) */
+#수정 多:인덱스 X
 
-#TCL
+#DCL:권한부여/삭제
+#all_users
+#CREATE USER ... IDENTIFIED BY
+#insufficient privileges
+#접속:+
+#GRANT ... TO
+#CREATE SESSION
+#hr.tableName
+#SELECT ON 
+#ANY TABLE
+#DEFAULT TABLESPACE
+#QUOTA UNLIMITED ON
+#RESOURCE, CONNECT, DBA
+#REVOKE ... FROM
+#DRO USER ... CASCADE
+#테이블 스페이스:파일형태
+#" .DBF"
+#C:\oraclexe\app\oracle\oradata\XE
+#INCLUDING CONTENTS
+#INCLUDING CONTENTS AND DATAFILES
 
+#PLSQL
+#프로시저
+#DECLARE
+#BEGIN
+#END
+#:=
+#DBMS_OUTPUT.put_line()
+#SET SERVEROUTPUT ON
+#SELECT절 INTO
+#%TYPE
+#익명블록
