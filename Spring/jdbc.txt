@@ -1,0 +1,22 @@
+jdbc
+
+#jdbc:oracle:thin:@localhost:1521:xe
+#Spring Framework:Singleton
+#Class.forName("oracle.jdbc.driver.OracleDriver")
+#강제 구동 메서드
+#커넥터 드라이버
+#?
+#DriverManager.getConnection(url, username, password);
+#Connection:접속담당
+#prepareStatement()
+#PreparedStatement:SQL 완성/실행
+#setString
+#setInt
+#setDouble
+#executeUpdate()
+#executeQuery()
+#ResultSet
+#next()
+
+
+

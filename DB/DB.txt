@@ -162,16 +162,11 @@ javaX
 #CASE WHEN THEN ELSE END
 
 ---집합 연산자---
-#조건
-
-#UNION
-
-#UNION ALL
-
+#UNION(중복제거)
+#UNION ALL(중복제거X)
 #INTERSECT
-
 #MINUS
-
+#집합연산 조건
 
 ---그룹 함수
 #그룹화
@@ -180,57 +175,46 @@ javaX
 #MAX( )
 #MIN( )
 #SUM( )
-#COUNT( )
+#COUNT( ):행 수
 #COUNT(*)
 #GROUP BY
-#그룹함수
 #HAVING
-#일반 조건 vs 그룹화 조건
 
 ---조인
-#조인
 #오라클 조인
+#(+)
 #ANSI 표준 조인
 #PK
 #FK
-#테이블 별칭
-#조인조건
-#내부조인
-#(INNER) JOIN ~ ON
-#외부조인
-#LEFT (OUTER) JOIN ~ ON
-#RIGHT (OUTER) JOIN ~ ON
-#FULL (OUTER) JOIN ~ ON
+#테이블 alias
+#(INNER) JOIN
+#LEFT (OUTER) JOIN 
+#RIGHT (OUTER) JOIN 
+#FULL (OUTER) JOIN 
 #CROSS JOIN
 #카테시안 곱(Cartesian Product)
 #SELF JOIN ~ ON
-#ON
-#(+)
+#ON(조인조건)
 #Optimizer
 #우선인식
 #일반조건(+)
 
 #서브쿼리
-#검색결과 활용
 #내부 SQL
 #(SQL)
-#WHERE절 서브쿼리
 #단일 행 서브쿼리
 #<>
 #비교 연산자
 #단일 행 연산자
 #다중 행 연산자
 #IN
-#ANY
-#SOME
+#ANY / SOME
 #ALL
 #EXISTS
 # 1
-#스칼라 서브쿼리
-#인라인 뷰
-#별칭:*
-#SQL 실행순서 조작
-
+#WHERE절 서브쿼리
+#SELECT절 서브쿼리(스칼라 서브쿼리)
+#FROM절 서브쿼리(인라인 뷰)
 
 #DESC
 #INSERT INTO 
@@ -238,19 +222,23 @@ javaX
 #null
 #ROLLBACK
 #(columnName)
-#사본 테이블
 #CREATE TABLE ~ AS ( ) : CTAS
+#CREATE OR REPLACE
+#사본 테이블: 제약조건 복사X (NOT NULL 예외)
 #DROP TABLE
 #WHERE 1 = 2
-#UPDATE SET
+#UPDATE ... SET
 #CRUD
 #DELETE FROM
 #MERGE INTO
 #USING
 #ON(병합조건)
+#dual:Tab
 #WHEN MATCHED THEN
+#UPDATE SET
+#DELETE
 #WHEN NOT MATCHED THEN
-#UPDATE DELETE
+#INSERT VALUES
 
 #TCL
 #DML:CRUD
@@ -297,7 +285,7 @@ javaX
 #user_constraints
 #view
 #user_sys_privs
-#CREATE VIEW
+#VIEW
 #alias
 #가상 표현식
 #함수 표현식
@@ -305,38 +293,33 @@ javaX
 #연산식
 #단순 뷰
 #복합 뷰
-#CREATE OR REPLACE VIEW
-#DROP VIEW
 #원본반영
 #WITH CHECK OPTION 
 #WITH READ ONLY
 
 #시퀀스(vs AUTO INCREMENT)
 #CREATE SEQUENCE
-#START WITH(수정불가)
-#INCREMENT BY
-#MAXVALUE 
-#MINVALUE 
-#NOCACHE
-#NOCYCLE
+#START WITH(수정불가, 기본값: MINVALUE OR MAXVALUE)
+#INCREMENT BY (기본값: 1)
+#MAXVALUE  (기본값: 1027 OR -1)
+#MINVALUE (기본값: 1 OR -1028)
+#NOCACHE (기본값: CACHE 20)
+#NOCYCLE (기본값: NOCYCLE)
 #NEXTVAL
 #CURRVAL
-#ALTER SEQUENCE
-#DROP SEQUENCE
 
 #계획 설명(IKON)
-#CREATE INDEX
+#INDEX
 #ON
 #full scan
 #fast full scan
 #range scan
-#DROP INDEX
 #PRIMARY KEY(자동생성)
-#ALTER INDEX RENAME TO
+#RENAME
 # /*+ INDEX(table_name index_name) */
 #수정 多:인덱스 X
 
-#DCL:권한부여/삭제
+#DCL:권한 부여/삭제
 #all_users
 #CREATE USER ... IDENTIFIED BY
 #insufficient privileges
@@ -350,7 +333,7 @@ javaX
 #QUOTA UNLIMITED ON
 #RESOURCE, CONNECT, DBA
 #REVOKE ... FROM
-#DRO USER ... CASCADE
+#CASCADE
 #테이블 스페이스:파일형태
 #" .DBF"
 #C:\oraclexe\app\oracle\oradata\XE
@@ -360,26 +343,28 @@ javaX
 #PLSQL
 #프로시저
 #익명블록
-#DECLARE(생략)
+#DECLARE(생략가능)
 #BEGIN
 #END
 #:=
-#DBMS_OUTPUT.put_line()
-#SET SERVEROUTPUT ON
-#SELECT절 INTO
+#dbms_output.put_line()
+#SERVEROUTPUT
+#SELECT: INTO
 #%TYPE
-#IF ... THEN .. ELSE ... END IF
-#ROUOND(DBMS_RANDOM.VALUE(이상 , 미만), )
+#IF ... THEN ... END IF
+#DBMS_RANDOM.VALUE(이상 , 미만)
 #ELSIF
-#CASE ... WHEN ... THEN ... ELSE ... END CASE
-#WHILE ... LOOP ... END LOOP
-#EXIT WHEN
+#CASE ...  END CASE
+#WHEN ... THEN
+#WHILE
 #FOR ... IN ..
-#CONTINUE WHEN
+#LOOP ... END LOOP
+#EXIT
+
+#CONTINUE
 #프로시저
-#CREATE PROCEDURE IS BEGIN END
+#PROCEDURE IS BEGIN END
 #EXEC
-#CREATE OR REPLACE PROCEDURE
 #매개변수:기본값
 #IN변수 
 #OUT변수
@@ -388,10 +373,25 @@ javaX
 #IN변수:값할당X
 #OUT변수:최후할당
 #RETURN
-#ORA:에러코드
+#ORA-에러코드
 #EXCEPTION
 #ZERO_DIVIDE
 #OTHERS
 #SQLCODE
 #SQLERRM
 
+#TRIGGER
+#AFTER/BEFORE:발생시점
+#ON:부착
+#FOR EACH ROW
+#DEFAULT
+#UPDATING
+#DELETING
+#:OLD
+#USER():SQL 계정명
+#:NEW
+#EXCEPTION:TYPE
+#RAISE
+#RAISE_APPLICATION_ERROR( , )
+#사용자 정의 예외
+#예외:ROLLBACK
