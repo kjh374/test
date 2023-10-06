@@ -314,10 +314,11 @@ javaX
 #full scan
 #fast full scan
 #range scan
-#PRIMARY KEY(자동생성)
+#PRIMARY KEY:자동생성
 #RENAME
 # /*+ INDEX(table_name index_name) */
 #수정 多:인덱스 X
+#COST
 
 #DCL:권한 부여/삭제
 #all_users

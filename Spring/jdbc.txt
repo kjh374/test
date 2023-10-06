@@ -1,6 +1,6 @@
 jdbc
 
-#jdbc:oracle:thin:@localhost:1521:xe
+#jdbc:oracle:thin:@
 #Spring Framework:Singleton
 #Class.forName("oracle.jdbc.driver.OracleDriver")
 #강제 구동 메서드
@@ -8,6 +8,7 @@ jdbc
 #?
 #DriverManager.getConnection(url, username, password);
 #Connection:접속담당
+#setAutoCommit()
 #prepareStatement()
 #PreparedStatement:SQL 완성/실행
 #setString
@@ -17,6 +18,31 @@ jdbc
 #executeQuery()
 #ResultSet
 #next()
+
+#Spring JDBC
+#커넥션 풀(커넥션 기본 8개)
+#HikariCP
+#com.zaxxer.hikari.HikariConfig
+#update( , ... )
+#RowMapper<T>
+#query( , )
+#queryForObject( , , ...)
+#queryForObject:EmptyResultDataAccessException
+
+#ORM
+#MyBatis:ORM 프레임워크
+#MyBatis-Spring:연동
+#classpath
+#xml구현체
+#namespace
+#<DML>
+# #{}:매개변수명/getter메서드변수명
+#resultType
+#resultMap
+#type
+#id:PRIMARY KEY
+#result
+#자동형변환
 
 
 

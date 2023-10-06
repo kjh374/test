@@ -85,8 +85,9 @@
 #GenericXmlApplicationContext
 #classpath
 #getBean( , )
-#<property name="" ref="" />
-#<constructor-arg ref="" />
+#property name
+#ref
+#constructor-arg
 
 ##DI
 #<context:annotation-config />
