@@ -53,46 +53,4 @@ jdbc
 #root-context.xml
 
 
-#주제:서비스
-#와이어 프레임(틀)
-#DB모델링
-#DB연동
-#TDD
-
-#junit-jupiter
-#spring-test
-#@ExtendWith()
-#ContextConfiguration()
-#테스트 환경:객체생성X, 메서드단위 실행
-#단위 테스트
-#테스트 시나리오
-#단언 기법
-#@Test
-#@DisplayName()
-#given - when then 패턴 (권장)
-#표기법 자동변환
-#mapUnderscoreToCamelCase
-#typeAliases
-#Assertions
-#assertEquals()
-#assertTrue()
-#import static
-#@WebAppConfiguration
-#가상 MVC 환경
-#WebApplicationContext
-#MockMvc
-#@BeforeEach
-#@AfterEach
-#MockMvcBuilders
-#webAppContextSetup()
-#standaloneSetup()
-#perform()
-#MockMvcRequestBuilders
-#get()
-#andReturn()
-#getModelAndView()
-#getModelMap()
-#getViewName()
-#param( , )
-#개발시간단축
 
