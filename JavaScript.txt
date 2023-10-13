@@ -13,3 +13,22 @@
 #history.back()
 #history.go()
 
+#data- (전역속성)
+#window.onload = function(){}
+#jQuery $(function(){})
+#addEventListener()
+#e : 이벤트 객체
+#e.target.matches()
+#e.preventDefault()
+#dataset
+#submit()
+#class 3항 연산자
+
+
+
+
+
+
+
+
+

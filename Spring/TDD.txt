@@ -57,6 +57,43 @@
 #confirm()
 
 
+#<![CDATA[]]>
+#&gt;
+#&lt;
+
+#동적 SQL 쿼리
+#'%' || #{keyword} || '%'
+#<include/>
+
+#동기코드
+#비동기코드
+#싱글 스레드 언어
+#setTimeout
+#콜백
+#프로미스
+#async/await
+#비동기:formX
+#[]:속성선택자
+# +: 인접 형제 선택자
+#querySelectorAll
+#NodeList:유사배열
+#[...]
+#forEach()
+#checked
+#XMLHttpRequest
+#REST통신
+#GET:조회
+#POST:등록
+#PUT:수정
+#DELETE:삭제
+#open( , )
+#JSON
+#Key : Value
+#JSON.stringify()
+#setRequestHeader( , )
+#send()
+#status
+#response
 
 
 

@@ -1,8 +1,8 @@
 Ctrl + Art + 아래화살표 : 복사붙여넣기
 #자동 들여쓰기 Ctrl A + I
 #alt + shift + R
-#Ctrl + D
-
+#Ctrl + D: 한줄삭제
+#Ctrl + Shift + O : 일괄 Import
 
 
 
@@ -17,7 +17,7 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 # Ctrl + Shift + L : 다중입력
 # Ctrl + Art + 위아래 화살표
 # +
-
+#F1 + 약어로 매핑
 
 
 
