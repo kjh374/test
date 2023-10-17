@@ -23,10 +23,11 @@
 #dataset
 #submit()
 #class 3항 연산자
+#{} : 객체
 
 
 
-
+#onblur
 
 
 

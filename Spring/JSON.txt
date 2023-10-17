@@ -40,7 +40,7 @@
 #REST API : URI정보 비공개
 #``(빽틱):리터럴문자열
 #\${}
-#/{}
+#/{} (여러개 가능)
 #@PathVariable() (조건만족:괄호생략)
 #.:절삭
 #콜백지옥
@@ -60,4 +60,41 @@
 
 #사업자 전용:라이브러리
 
+#headers
+#text/plain 
+#body
+
+#JavaMailSenderImpl
+#JavaMailSender
+#send()
+#MimeMessage
+#MimeMessageHelper
+#setFrom()
+#setTo()
+#setSubject()
+#setText( , )
+#display = 'none'
+#disabled
+#onFocus
+#onChange
+#initialSelect
+#selectedIndex
+#setAttribute( , )
+#다음 지도 API
+#onkeyup
+#/^[A-Za-z0-9+]{}$/:정규표현식
+#test()
+#getAttribute()
+#url구분
+
+#RedirectAttributes
+#addFlashAttribute()
+
+#인터셉터
+#인증
+#인가
+#필터vs인터셉터
+#preHandle
+#postHandle
+#afterCompletion:응답직전
 
