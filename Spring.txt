@@ -1,0 +1,465 @@
+-----------프레임워크-------------
+#IoC(제어권역전)
+
+---------------모듈------------------
+##Core
+#IoC
+#DI
+##MVC
+##JDBC
+##ORM
+
+-------------SOLID원칙-------------
+#OOP 5대 원칙
+#SRP
+#OCP
+#LSP
+#ISP
+#DIP
+
+
+------------빌드도구------------
+#Maven/Gradle
+#의존성 관리
+#빌드 자동화
+#빌드 환경 통일
+#편리한 배포
+#다양한 플러그인
+
+##Maven
+@Maven Central
+@Maven Repository
+#Spring legacy
+#라이브러리 저장소
+#pom.xml
+#update: Alt + F
+
+##Gradle
+#Spring boot
+#Groovy DSL
+#높은 자유도
+#멀티 프로젝트 빌드 지원
+#빠른 빌드 속도
+#간결성
+#다양한 라이브러리
+#높은 입문 난이도
+#복잡한 초기 설정
+#빈번한 업데이트
+
+-------------------------------
+
+##lombok
+#라이브러리
+#직접실행:cmd
+@C:\Users\ict04-12>cd C:\MyWork\eclipse
+@C:\MyWork\eclipse>java -jar lombok.jar
+#import
+@Getter 
+@Setter
+@ToString
+@NoArgsConstructor // 기본 생성자
+@AllArgsConstructor // 모든 파라미터 생성자
+@EqualsAndHashCode
+#exclude = "dataName"
+
+#getClass
+#getSimpleName
+
+
+-------------Spring Core--------------
+#스프링 컨테이너(IoC, DI Container)
+#Singleton
+#(scope="prototype")
+
+#Bean
+#객체생성
+#객체등록
+#외부주입
+#@Component
+#@Controller
+#@Service
+#@Repository
+
+##IoC
+#<bean>
+#GenericXmlApplicationContext
+#classpath
+#getBean( , )
+#property name
+#ref
+#constructor-arg
+
+##DI
+#<context:annotation-config />
+##@Autowired
+#@Qualifier("bean id")
+#Constructor Injection (Major)
+#Setter Injection
+#Field Injection
+#NullPointerException방지
+#final선언
+@RequiredArgsConstructor
+
+
+#legacy(MVC)
+
+#Group ID
+#Artifact ID
+#Project Name
+
+
+----------Spring MVC----------
+
+#WEB-INF
+#보안성
+
+#Dispatcher Servlet
+#front controller
+#url 검사
+#Bean 등록
+#Handler Mapping:탐색
+#Handler Adaptor:호출? 4번담당??
+#Controller 탐색
+#Controller 보고
+#메서드 실행 명령
+#메서드 결과 보고
+#문자열 반환
+
+
+##web.xml
+#org.springframework.web.servlet.DispatcherServlet
+#init-param
+#servlet-context.xml
+#<load-on-startup>1</load-on-startup>
+#url-pattern
+#/
+#CharacterEncodingFilter
+#forceEncoding
+
+#<annotation-driven />
+#정적자원
+#<resources mapping="/resources/**" location="/resources/" />
+#<beans:bean>
+#<context:component-scan base-package="com.spring.basic" />
+#@Controller
+#@Controller(" ")
+##@RequestMapping()
+#both
+#value
+#method
+#RequestMethod.GET
+#return String
+#return skip
+#GetMapping(" ")
+#PostMapping(" ")
+#공통URL맵핑
+##ViewResolver
+#완성된 경로
+#ref
+#value
+#prefix
+#suffix
+
+#forward:default (Spring)
+
+#파일명리턴
+#Model Object:요청위임
+#<context-param>
+#<listener>
+
+#@RequestParam
+#커맨드 객체
+
+##Validation
+#required
+#defaultValue
+
+----------------------------------------------
+
+#Query String
+#No caching
+
+
+=========3 Tier Architecture==========
+
+#유지보수 & 확장
+#Controller-Service-Repository
+
+#Repository:DAO
+#Entity
+#DTO
+#VO
+
+#lombok.*
+
+#@Component
+#@Service
+#@Repository
+
+#@RequiredArgsConstructor
+
+#++sequence
+
+#응답데이터 설계
+
+jdbc
+
+#jdbc:oracle:thin:@
+#Spring Framework:Singleton
+#Class.forName("oracle.jdbc.driver.OracleDriver")
+#커넥터 드라이버
+#?
+#DriverManager.getConnection(url, username, password);
+#Connection:접속담당
+#setAutoCommit()
+#prepareStatement()
+#PreparedStatement:SQL 완성/실행
+#setString
+#setInt
+#setDouble
+#executeUpdate()
+#executeQuery()
+#ResultSet
+#next()
+
+#Spring JDBC
+#커넥션 풀(커넥션 기본 8개)
+#HikariCP
+#update( , ... )
+#RowMapper<T>
+#query( , )
+#queryForObject( , , ...)
+#queryForObject:EmptyResultDataAccessException
+
+#ORM 프레임워크
+#MyBatis:SQL 직접작성
+#MyBatis-Spring:연동
+#classpath
+#인터페이스 구현:*Mapper.xml
+# #{매개변수}
+#resultType
+#resultMap
+#type
+#자동형변환
+
+#action 생략: URL 재활용
+
+#빌더 패턴
+#중첩 static 클래스
+#@Builder
+
+#.m2 몰살. 메이븐 재업데이트
+
+#AWS
+#.properties
+#servlet-context.xml
+#root-context.xml
+
+#TDD
+#주제:서비스
+#와이어 프레임(틀)
+#DB모델링
+#DB연동
+#TDD
+
+#junit-jupiter
+#spring-test
+#@ExtendWith()
+#ContextConfiguration()
+#테스트 환경:객체생성X, 메서드단위 실행
+#단위 테스트
+#테스트 시나리오
+#단언 기법
+#@Test
+#@DisplayName()
+#given - when then 패턴 (권장)
+#표기법 자동변환
+#mapUnderscoreToCamelCase
+#typeAliases
+#Assertions
+#assertEquals()
+#assertTrue()
+#assertNotNull()
+#asserNull()
+#jdbcTypeForNull
+#import static
+#@WebAppConfiguration
+#가상 MVC 환경
+#WebApplicationContext
+#MockMvc
+#@BeforeEach
+#@AfterEach
+#MockMvcBuilders
+#webAppContextSetup()
+#standaloneSetup()
+#perform()
+#MockMvcRequestBuilders
+#get()
+#andReturn()
+#getModelAndView()
+#getModelMap()
+#getViewName()
+#param( , )
+#개발시간단축
+
+#단통시인
+
+#include
+#resources태그
+#../
+#약어로 매핑(Emmet: )
+#encodingFilter
+#document.formName
+#const $
+#$form.submit()
+# () =>
+#삭제요청:post
+#$form.setAttribute( , )
+#confirm()
+
+
+#<![CDATA[]]>
+#&gt;
+#&lt;
+
+#동적 SQL 쿼리
+#'%' || #{keyword} || '%'
+#<include/>
+
+
+
+
+
+
+
+
+#동기코드
+#비동기코드
+#싱글 스레드 언어
+#setTimeout
+#콜백
+#프로미스
+#async/await
+#비동기:formX
+#[]:속성선택자
+# +: 인접 형제 선택자
+#querySelectorAll
+#NodeList:유사배열
+#[...]
+#forEach()
+#checked
+#XMLHttpRequest
+#REST통신
+#GET:조회
+#POST:등록
+#PUT:수정
+#PATCH:일부수정
+#DELETE:삭제
+#open( , )
+#JSON
+#Key : Value
+#JSON.stringify()
+#setRequestHeader( , )
+#send()
+#status
+#response
+#onload:응답완료
+
+#Jackson Databind
+#@RequestBody
+#@ResponseBody
+#Arrays.asList()
+#@RestController
+#REST
+#Restful
+#REST API : URI정보 비공개
+#``(빽틱):리터럴문자열
+#\${}
+#/{} (여러개 가능)
+#@PathVariable() (조건만족:괄호생략)
+#.:절삭
+#콜백지옥
+#fetch API
+#Promise
+#fetch( , )
+#then
+#function(res){}:콜백함수
+#res => {}
+#text()
+#json()
+#코드한줄: return 생략
+#data => {}
+#input태그:readonly(disabled X)
+#setAttribute()
+#focus()
+
+#사업자 전용:라이브러리
+
+#headers
+#text/plain 
+#body
+
+#JavaMailSenderImpl
+#JavaMailSender
+#send()
+#MimeMessage
+#MimeMessageHelper
+#setFrom()
+#setTo()
+#setSubject()
+#setText( , )
+#display = 'none'
+#disabled
+#onFocus
+#onChange
+#initialSelect
+#selectedIndex
+#setAttribute( , )
+#다음 지도 API
+#onkeyup
+#/^[A-Za-z0-9+]{}$/:정규표현식
+#test()
+#getAttribute()
+#url구분
+
+#RedirectAttributes
+#addFlashAttribute()
+
+#인터셉터
+#인증
+#인가
+#필터vs인터셉터
+#HandlerInterceptor
+#preHandle
+#postHandle
+#afterCompletion:응답직전
+#return false
+
+
+#mvc:interceptors
+#mvc:interceptor
+#mvc:mapping
+#path
+#ref
+#**
+
+#getMethod()
+#get():형변환
+#getSession()
+
+#contextRoot:삭제가능
+#getContextPath()
+#addObject()
+
+#sessionScope(조건충족시 생략가능)
+
+#pageContext.request.contextPath
+
+#BcryptPasswordEncoder
+#encode()
+#matches()
+
+#<collection>
+
+
+

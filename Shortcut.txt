@@ -3,7 +3,7 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 #alt + shift + R
 #Ctrl + D: 한줄삭제
 #Ctrl + Shift + O : 일괄 Import
-
+#Ctrl + H : /contextRoot
 
 
 #Shift + Art + S
