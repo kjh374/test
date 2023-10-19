@@ -29,6 +29,25 @@
 
 #onblur
 
+#innerHTML:이슈
+# ` ` : 문자열
+
+#firstChild
+#truthy/falsy
+#insertAdjacentHTML()
+#beforeend
+#afterend
+#beforebegin
+#afterbegin
+#가상돔
+#리액트
+#new Date()
+#getTime()
+#parseInt()
+#getMonth()
+
+
+
 
 
 

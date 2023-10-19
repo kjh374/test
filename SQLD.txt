@@ -39,5 +39,40 @@
 #TOP()
 #WITH TIES
 #인스턴스
+#LEVEL
+#자식노드
+#부모노드
+#리프(리프노드)
+#루트
+#노드
+#BOM
+#START WITH
+#START WITH:생략
+#CONNECT BY
+#PRIOR
+#순방향 전개
+#역방향 전개
+#Pruning Branch
+#계층형 쿼리
+#CONNECT BY_ROOT
+#SYS_CONNECT_BY_PATH
+#CONNECT_BY_ISLEAF ISLEAF
+#OVER
+#집계함수
+#OVER:순서
+#PARTITION BY
+#ROWS
+#RANGE
+#UNBOUNDED PRECEDING
+#ROWS N PRECEDING
+#트랜잭션:원자성
+#트랜잭션:일관성
+#트랜잭션:독립성
+#트랜잭션:지속성
+#트랜잭션:최소화
+#CHECK
+#CURRENT ROW
+
+
 
 

@@ -241,6 +241,10 @@ jdbc
 #resultMap
 #type
 #자동형변환
+#mybatis:parameter수
+#@Param():생략불가
+#MyBatis:Map포장
+#Class Design
 
 #action 생략: URL 재활용
 
@@ -359,6 +363,11 @@ jdbc
 #JSON
 #Key : Value
 #JSON.stringify()
+#method
+#headers
+#text/plain
+#application/json
+#body
 #setRequestHeader( , )
 #send()
 #status
@@ -393,11 +402,6 @@ jdbc
 #setAttribute()
 #focus()
 
-#사업자 전용:라이브러리
-
-#headers
-#text/plain 
-#body
 
 #JavaMailSenderImpl
 #JavaMailSender
@@ -444,7 +448,6 @@ jdbc
 #**
 
 #getMethod()
-#get():형변환
 #getSession()
 
 #contextRoot:삭제가능
@@ -460,6 +463,13 @@ jdbc
 #matches()
 
 #<collection>
+
+
+
+
+
+
+
 
 
 
