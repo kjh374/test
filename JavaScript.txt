@@ -30,23 +30,39 @@
 #onblur
 
 #innerHTML:이슈
-# ` ` : 문자열
+# ` ` : xpavmfflt flxjfjf
 
 #firstChild
 #truthy/falsy
 #insertAdjacentHTML()
-#beforeend
-#afterend
 #beforebegin
 #afterbegin
+#beforeend
+#afterend
 #가상돔
 #리액트
 #new Date()
 #getTime()
 #parseInt()
 #getMonth()
+#preventDefault()
+#가상요소?
+#전파
+#addEventListener()
+#property방식 이벤트
+#matches()
+#parentNode
+#nextElementSibling
+#textContent
+#classList
+#contains()
+#includes()
+#file
+#file:post
+#enctype
+#multipart/form-data
 
-
+#multiple
 
 
 

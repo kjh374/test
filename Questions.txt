@@ -16,3 +16,9 @@ q. 그럼 다른 jsp파일로 이동해도 값이 전다로디ㅏㄴ?
 #CREATE OR REPLACE TABLE ???
 
 #POST방식이 따로 나온다는 게  fetch인가?
+
+# for(let i=0; i<replyList.length; i++){
+
+#text/plain 도 @requestBody 필요한가본데..
+
+#responsebody 있으면 안가지않나?

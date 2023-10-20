@@ -362,9 +362,10 @@ jdbc
 #open( , )
 #JSON
 #Key : Value
-#JSON.stringify()
+#JSON.stringify() 
 #method
 #headers
+#Content-Type
 #text/plain
 #application/json
 #body
@@ -464,8 +465,30 @@ jdbc
 
 #<collection>
 
+#출력문(원인파악)
 
+#CommonsMultipartResolver
+#maxUploadSize
+# -1
+#defaultEncoding
+#MultipartFile
+#getOriginalFilename()
+#getSize()
 
+#blob
+#DB:저장경로 
+#UUID
+#randomUUID()
+#범용 고유 식별자
+#mkdirs()
+#transferTo()
+#multiple
+#MultipartHttpServletRequest
+#getFiles(" ")
+#list:예외처리
+
+#ModelAndView:
+#setViewName()
 
 
 
