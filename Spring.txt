@@ -479,6 +479,7 @@ jdbc
 #DB:저장경로 
 #UUID
 #randomUUID()
+#toString()
 #범용 고유 식별자
 #mkdirs()
 #transferTo()
@@ -490,9 +491,34 @@ jdbc
 #ModelAndView:
 #setViewName()
 
+#fakepath
+#append( , )
+#FormData:headers X
+#now()
+#replace( , )
 
-
-
-
+#ResponseEntity<>
+#HttpHeaders(from.springframework.)
+#Files
+#probeContentType()
+#toPath()
+#FileCopyUtils
+#copyToByteArray()
+#HttpStatus
+#OK
+#BAD_REQUEST
+#badRequest()
+#제네릭:객체생성
+#body()
+#getMessage()
+#<?>
+#getHeader()
+#User-Agent
+#Content-Disposition
+#attachment
+#inline
+#Mozilla/5.0
+#getBytes("UTF-8")
+#INTERNAL_SERVER_ERROR
 
 

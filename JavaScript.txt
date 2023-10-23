@@ -64,7 +64,21 @@
 
 #multiple
 
+#onchange
+#slice()
+#indexOf()
+#toLowerCase()
 
 
+#FormData
+#input:index
+#files
+#fileList:유사배열
 
+#querySelector()
+#remove()
+
+#of
+
+#dataset
 

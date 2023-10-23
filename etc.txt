@@ -7,8 +7,9 @@
 
 #미친 사용자입장
 #트러블 슈팅
-
-
+#jpeg
+#bmp
+#확장자
 
 #application: 서버종료
 #session: 브라우저 종료
