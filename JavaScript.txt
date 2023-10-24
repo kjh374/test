@@ -82,3 +82,19 @@
 
 #dataset
 
+#lodash
+
+#handleScroll
+#_.throttle()
+
+#body지목
+#pageYOffset
+#OffsetHeight
+#innerHeight
+#firstElementChild
+#요소노드
+#텍스트노드
+#parentNode
+#previousElementSibling
+#children[]
+#Number()

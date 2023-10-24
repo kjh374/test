@@ -508,6 +508,7 @@ jdbc
 #OK
 #BAD_REQUEST
 #badRequest()
+#ok()
 #제네릭:객체생성
 #body()
 #getMessage()
@@ -520,5 +521,32 @@ jdbc
 #Mozilla/5.0
 #getBytes("UTF-8")
 #INTERNAL_SERVER_ERROR
+#UNAUTHORIZED
+#build()
+#HttpSession
+#Appenders
+#ConsoleAppender
+#%d
+#%p:로그레벨
+#%c
+#%C
+#%m
+#%n
+#DailyRollingFileAppender
+#FATAL
+#ERROR
+#WARN
+#INFO
+#DEBUG
+#TRACE
+#logger
+#level
+#@Slf4j
+#log4j
+#SQL Logger
+
+
+#img경로 매핑 어디서???
+
 
 
