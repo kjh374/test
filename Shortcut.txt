@@ -1,6 +1,6 @@
 WEB BROWSER
 #Shift + Enter
-#Ctrl + Art + R
+#Ctrl + Art + R: 서버 재시작
 
 Ctrl + Art + 아래화살표 : 복사붙여넣기
 #자동 들여쓰기 Ctrl A + I
@@ -21,7 +21,7 @@ Ctrl + Art + 아래화살표 : 복사붙여넣기
 # Ctrl + Shift + L : 다중입력
 # Ctrl + Art + 위아래 화살표
 # +
-#F1 + 약어로 매핑
+#F1 + 약어로 래핑
 
 
 

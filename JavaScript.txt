@@ -98,3 +98,16 @@
 #previousElementSibling
 #children[]
 #Number()
+
+#includes()
+
+#Web Storage
+#localStorage
+#Cookies
+#sessionStorage
+#setItem()
+#getItem()
+#속성:[]
+#options[]
+
+
